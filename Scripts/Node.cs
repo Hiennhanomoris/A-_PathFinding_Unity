@@ -2,13 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Node : MonoBehaviour
+public class Node 
 {
     public bool walkable;
-    public Vector3 woldPosition;
-    public Node(bool _walkable, Vector3 _woldPos)
+    public Vector3 worldPosition;
+    public Node(bool _walkable, Vector3 _worldPos)
     {
         walkable = _walkable;
-        woldPosition = _woldPos;
+        worldPosition = _worldPos;
     }
 }
